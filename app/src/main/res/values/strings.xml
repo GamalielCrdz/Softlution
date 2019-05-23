@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Soflucion</string>
+    <string name="btninicio">Inicio</string>
+    <string name="btnserv">Servicios</string>
+    <string name="btnserv1">Tipo de Servicio</string>
+    <string name="btnsend">Enviar</string>
+    <string name="btnabout">About</string>
+    <string name="btname">Nombre</string>
+    <string name="btncontacto">Contacto</string>
+    <string name="action_settings">Settings</string>
+    <string name="mail">E-mail</string>
+    <string name="phone">Teléfono</string>
+    <string name="creador">Desarrollado por : Marco Muñoz</string>
+    <string name="title_activity_servicios">Servicios</string>
+    <string name="todo">TODO</string>
+
+</resources>

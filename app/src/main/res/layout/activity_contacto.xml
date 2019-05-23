@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contacto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:label="Softlucion"
+        android:background="@drawable/contacto"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <EditText
+        android:id="@+id/et_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/et_mail"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="197dp"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:text="@string/btnsend" />
+
+    <EditText
+        android:id="@+id/et_nom"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/et_num"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="304dp"
+        android:ems="10"
+        android:hint="@string/btname"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="250dp"
+        android:ems="10"
+        android:hint="@string/mail"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/et_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="189dp"
+        android:text="5oftlucion.mty@gmail.com" />
+
+    <EditText
+        android:id="@+id/et_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="146dp"
+        android:ems="10"
+        android:hint="Asunto"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_text"
+        android:layout_width="341dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="57dp"
+        android:ems="10"
+        android:hint="Mensaje"
+        android:inputType="textPersonName" />
+
+
+</RelativeLayout>
